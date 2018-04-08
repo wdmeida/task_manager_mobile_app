@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/wagner/Documents/projetos/projetos_nativescript/task_manager_mobile_app/platforms/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/wagner/.android/build-cache/0872ad27136965ff8f139a21354052d2464784db/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/wagner/Documents/projetos/projetos_nativescript/task_manager_mobile_app/platforms/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/wagner/.android/build-cache/0872ad27136965ff8f139a21354052d2464784db/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]

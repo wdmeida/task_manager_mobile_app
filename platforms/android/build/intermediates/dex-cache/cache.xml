@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/wagner/.android/build-cache/c8db885698da1c835debc737437ae0d7a59695b9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="/home/wagner/Documents/projetos/projetos_nativescript/task_manager_mobile_app/platforms/android/app/build/intermediates/pre-dexed/debug/classes_cbe068cb22cd07342b8b446df71bb604c8541821.jar" />
+    </item>
+
+</items>

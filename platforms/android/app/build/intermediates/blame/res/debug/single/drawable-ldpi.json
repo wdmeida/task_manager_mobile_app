@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/wagner/Documents/projetos/projetos_nativescript/task_manager_mobile_app/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldpi/background.png",
+        "source": "/home/wagner/Documents/projetos/projetos_nativescript/task_manager_mobile_app/platforms/android/app/src/main/res/drawable-ldpi/background.png"
+    },
+    {
+        "merged": "/home/wagner/Documents/projetos/projetos_nativescript/task_manager_mobile_app/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldpi/icon.png",
+        "source": "/home/wagner/Documents/projetos/projetos_nativescript/task_manager_mobile_app/platforms/android/app/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/home/wagner/Documents/projetos/projetos_nativescript/task_manager_mobile_app/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldpi/logo.png",
+        "source": "/home/wagner/Documents/projetos/projetos_nativescript/task_manager_mobile_app/platforms/android/app/src/main/res/drawable-ldpi/logo.png"
+    }
+]
