@@ -3,12 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/home/wagner/.android/build-cache/c8db885698da1c835debc737437ae0d7a59695b9/output/jars/classes.jar"
+        jar="/home/wagner/.android/build-cache/3786cebaf14807ffd74cb6e9cedd7ff2d357db73/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
         sha1="746274223beb11b1cda7854d7eec3038695c2c93">
-        <dex dex="/home/wagner/Documents/projetos/projetos_nativescript/task_manager_mobile_app/platforms/android/app/build/intermediates/pre-dexed/debug/classes_cbe068cb22cd07342b8b446df71bb604c8541821.jar" />
+        <dex dex="/home/wagner/Documents/projetos/projetos_nativescript/task_manager_mobile_app/platforms/android/app/build/intermediates/pre-dexed/debug/classes_ddf88d5148c55725dae6b947e1fff5f520e7c263.jar" />
     </item>
 
 </items>
