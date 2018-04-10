@@ -2,7 +2,6 @@
     "compilerOptions": {
         "module": "commonjs",
         "target": "es5",
-        "sourceMap": true,
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "noEmitHelpers": true,
@@ -12,7 +11,7 @@
             "dom",
             "es2015.iterable"
         ],
-        "baseUrl": "./app",
+        "baseUrl": ".",
         "paths": {
             "*": [
                 "./node_modules/tns-core-modules/*",
