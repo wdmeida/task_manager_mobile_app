@@ -1,28 +1,58 @@
-<GridLayout columns="50, auto, *" rows="50, auto, *" backgroundColor="lightgray" >
-  <Label text="Label 1" row="0" col="0" backgroundColor="red"></Label>
-  <Label text="Label 2" row="0" col="1" colSpan="2" backgroundColor="green"></Label>
-  <Label text="Label 3" row="1" col="0" rowSpan="2" backgroundColor="blue"></Label>
-  <Label text="Label 4" row="1" col="1" backgroundColor="yellow"></Label>
-  <Label text="Label 5" row="1" col="2" backgroundColor="orange"></Label>
-  <Label text="Label 6" row="2" col="1" backgroundColor="pink"></Label>
-  <Label text="Label 7" row="2" col="2" backgroundColor="purple"></Label>
-</GridLayout>
+<ActionBar class="action-bar" title="Temas do NativeScript"></ActionBar>
+<ScrollView>
+  <StackLayout class="page">
+    <label text="Label com class h1" class="h1"></label>
+    <label text="Label com class h4" class="h4"></label>
 
+    <Progress value="70" class="progress"></Progress>
+    <ActivityIndicator busy="true" class="activity-indicator"></ActivityIndicator>
+
+    <Button text="Botão com class btn" class="btn"></Button>
+    <Button text="Botão com class btn-primary" class="btn-primary"></Button>
+    <Button text="Botão com class btn-outline" class="btn-outline"></Button>
+
+    <StackLayout class="hr-dark"></StackLayout>
+
+    <StackLayout class="form m-t-30 m-b-30">
+      <StackLayout class="input-field">
+        <label text="Nome" class="label font-weight-bold m-b-5"></label>
+        <TextField class="input"></TextField>
+        <StackLayout class="hr-light"></StackLayout>
+      </StackLayout>
+
+      <StackLayout class="input-field">
+        <label text="Email" class="label font-weight-bold m-b-5"></label>
+        <TextField class="input"></TextField>
+        <StackLayout class="hr-light"></StackLayout>
+      </StackLayout>
+    </StackLayout>
+
+    <StackLayout class="hr-light"></StackLayout>
+
+    <label text="Label com class body" class="body"></label>
+    <label text="Label com class footnote" class="footnote"></label>
+    <label text="Label com class body e text-center" class="body text-center"></label>
+    <label text="Label com class body e font-italic" class="body font-italic"></label>
+
+    <label text="Label com class body e m-l-20" class="body m-l-20"></label>
+
+    <StackLayout class="hr-dark"></StackLayout>
+
+    <label text="Label com class text-primary" class="text-primary"></label>
+    <label text="Label com class text-danger" class="text-danger"></label>
+    <label text="Label com class text-muted" class="text-muted"></label>
+
+    <StackLayout class="hr-dark"></StackLayout>
+
+    <StackLayout class="bg-primary">
+      <label text="I want to draw your attention here."></label>
+    </StackLayout>
+    <StackLayout class="bg-danger">
+      <label text="A critical error has occured!"></label>
+    </StackLayout>
+
+    <StackLayout class="hr-dark"></StackLayout>
+  </StackLayout>
+</ScrollView>
 <!-- https://docs.nativescript.org/angular/core-concepts/angular-navigation.html#page-router-outlet -->
 <!-- <page-router-outlet></page-router-outlet> -->
-
-<!--
-<AbsoluteLayout>
-  <label top="50" left="100" text="Botão 1" backgroundColor="red"></label>
-  <Button top="150" text="Eu sou um botão 2" margin="30" backgroundColor="red"></Button>
-</AbsoluteLayout>
--->
-
-<!--
-<DockLayout backgroundColor="lightgray" stretchLastChild="false">
-  <Label text="left" dock="left" width="60" backgroundColor="red"></Label>
-  <Label text="top" dock="top" height="60" backgroundColor="green"></Label>
-  <Label text="right" dock="right" width="60" backgroundColor="blue"></Label>
-  <Label text="bottom" dock="bottom" height="60" backgroundColor="yellow"></Label>
-</DockLayout>
--->
