@@ -12,12 +12,16 @@ import { AppRoutingModule } from "./app.routing";
 // Uncomment and add to NgModule imports  if you need to use the HTTP wrapper
 // import { NativeScriptHttpModule } from "nativescript-angular/http";
 
+//  import pages
+import { SignInComponent } from "./sign-in/sign-in.component";
+
 @NgModule({
     bootstrap: [
         AppComponent,
     ],
     declarations: [
       AppComponent,
+      SignInComponent,
     ],
     imports: [
         NativeScriptModule,
