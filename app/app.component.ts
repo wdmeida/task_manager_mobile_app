@@ -9,7 +9,7 @@ import { NSAngular2TokenService } from "./shared/ns-angular2-token-master/ns-ang
 export class AppComponent {
   public constructor(private tokenService: NSAngular2TokenService) {
     this.tokenService.init({
-      apiBase: "http://urldapi",
+      apiBase: "http://10.0.2.2:3000",
       globalOptions: {
         headers: {
           "Accept": "application/vnd.taskmanager.v2",
