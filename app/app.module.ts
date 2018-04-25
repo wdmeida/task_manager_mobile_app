@@ -1,8 +1,9 @@
 // Angular imports
 import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
+import { ReactiveFormsModule } from "@angular/forms";
 
 // NativeScript imports
-// import { NativeScriptFormsModule } from "nativescript-angular/forms";
+import { NativeScriptFormsModule } from "nativescript-angular/forms";
 import { NativeScriptHttpModule } from "nativescript-angular/http";
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 
@@ -42,9 +43,11 @@ import "rxjs/add/observable/throw";
     SignUpComponent,
   ],
   imports: [
+    AppRoutingModule,
+    NativeScriptFormsModule,
     NativeScriptHttpModule,
     NativeScriptModule,
-    AppRoutingModule,
+    ReactiveFormsModule,
   ],
   providers: [
     AuthGuard,
