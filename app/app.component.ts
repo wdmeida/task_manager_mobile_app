@@ -2,8 +2,8 @@ import { Component } from "@angular/core";
 import { NSAngular2TokenService } from "./shared/ns-angular2-token-master/ns-angular2-token.service";
 
 @Component({
-    selector: "ns-app",
-    templateUrl: "app.component.html",
+  selector: "ns-app",
+  templateUrl: "app.component.html",
 })
 
 export class AppComponent {

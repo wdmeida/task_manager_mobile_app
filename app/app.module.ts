@@ -19,25 +19,25 @@ import { SignUpComponent } from "./sign-up/sign-up.component";
 import { NSAngular2TokenService } from "./shared/ns-angular2-token-master/ns-angular2-token.service";
 
 @NgModule({
-    bootstrap: [
-      AppComponent,
-    ],
-    declarations: [
-      AppComponent,
-      SignInComponent,
-      SignUpComponent,
-    ],
-    imports: [
-      NativeScriptHttpModule,
-      NativeScriptModule,
-      AppRoutingModule,
-    ],
-    providers: [
-      NSAngular2TokenService,
-    ],
-    schemas: [
-      NO_ERRORS_SCHEMA,
-    ],
+  bootstrap: [
+    AppComponent,
+  ],
+  declarations: [
+    AppComponent,
+    SignInComponent,
+    SignUpComponent,
+  ],
+  imports: [
+    NativeScriptHttpModule,
+    NativeScriptModule,
+    AppRoutingModule,
+  ],
+  providers: [
+    NSAngular2TokenService,
+  ],
+  schemas: [
+    NO_ERRORS_SCHEMA,
+  ],
 })
 /*
 Pass your application module to the bootstrapModule function located in main.ts to start your app
